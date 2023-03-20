@@ -42,7 +42,7 @@ export function isCI(): boolean {
 
 /** Variable added via webpack */
 declare let EXTENSION_VERSION: string // eslint-disable-line @typescript-eslint/naming-convention
-const testVersion = 'testPluginVersion'
+const testVersion = 'cw-canary'
 
 /** The current extension version. If not built via Webpack, this defaults to {@link testVersion}. */
 let extensionVersion = testVersion
